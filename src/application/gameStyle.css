@@ -1,0 +1,27 @@
+.root {
+    -fx-background-color: black;
+	-fx-alignment: top-left ;
+}
+
+#counter {
+	-fx-alignment: CENTER;
+	-fx-font-size: 150;
+	-fx-fill: #ffc72b;
+	-fx-translate-x: 160;
+	-fx-translate-y: 175;
+}
+
+#myscore {
+	-fx-font-size: 30;
+	-fx-fill: #ffc72b;
+	-fx-translate-x: 190;
+	-fx-translate-y: 10;
+}
+
+#oponentScore {
+	-fx-font-size: 30;
+	-fx-fill: #ffc72b;
+	-fx-translate-x: 190;
+	-fx-translate-y: 550;
+}
+

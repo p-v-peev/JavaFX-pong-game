@@ -1,0 +1,53 @@
+.button {
+    -fx-padding: 5.0 22.0 5.0 22.0;   
+    -fx-border-color: #ffc72b;
+    -fx-border-width: 2.0;
+    -fx-background-radius: 0.0;
+    -fx-background-color: #1d1d1d;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 11.0pt;
+    -fx-text-fill: #d8d8d8;
+    -fx-background-insets: 0.0 0.0 0.0 0.0, 0.0, 1.0, 2.0;
+    -fx-min-width: 270px;
+}
+
+.button:hover {
+    -fx-background-color: #1f1f1f;
+    -fx-border-radius: 4px;
+     -fx-background-radius: 4px;
+    -fx-border-color: orange;
+}
+
+.text-field {
+	-fx-padding: 5.0 22.0 5.0 22.0;   
+    -fx-border-color: orange;
+    -fx-border-width: 2px;
+    -fx-background-radius: 3px;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 11.0pt;
+    -fx-background-insets: 0.0 0.0 0.0 0.0, 0.0, 1.0, 2.0;
+    -fx-border-radius: 2px;
+    -fx-max-width: 270px;
+}
+
+.progress-indicator {
+	-fx-progress-color: #ffc72b;
+}
+
+.scroll-pane {
+	-fx-max-width: 270px;
+	-fx-max-height: 300px;
+	-fx-min-height: 300;
+	-fx-background-fills: black;
+}
+
+.label {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-opacity: 0.6;
+}
+
+.root {
+    -fx-background-color: black;
+	-fx-alignment: center;
+}
